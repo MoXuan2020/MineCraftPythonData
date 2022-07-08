@@ -9,7 +9,7 @@
 > modItem.py 原版物品数据
 
 ### 特别提示
-> 目前 modItem.py 内的数据内含有 modBlock.item，这个不是 Bug，所以如果在判断当前手持物品是否为原版物品时，应该使用以下代码：
+> 目前 modItem.py 内的数据内含有 modBlock.py 内的数据，这个不是 Bug，所以如果在判断当前手持物品是否为原版物品时，应该使用以下代码：
 ```python
 if itemName in modItem.ItemList and not in modBlock.BlockList:
   ...省略逻辑代码
